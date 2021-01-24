@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
+import { Service1 } from './service1.service';
 
 
 
@@ -13,6 +14,7 @@ import { Component2Component } from './component2/component2.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  providers: [Service1]
 })
 export class Module1Module { }
